@@ -1,6 +1,7 @@
 buildscript {
     repositories {
         google()
+        mavenCentral()
     }
 
     dependencies {
@@ -27,6 +28,7 @@ android {
 
 repositories {
     mavenLocal()
+    mavenCentral()
     google()
 }
 
